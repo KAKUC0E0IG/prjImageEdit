@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "ImageEdit";
+}
+
+<div>
+    <img id="mainimage" src="~/images/001.jpg" style="width:500px;position:absolute"/>
+</div>
+<div>
+    <div class="smallimage">
+        <img src="~/images/001.jpg" id="1" onclick="imagechange()" class="d-block w-100" alt="..." style="top:300px">
+    </div>
+    <div class="smallimage">
+        <img src="~/images/002.jpg" id="2" onclick="imagechange()" class="d-block w-100" alt="..." style="top:500px">
+    </div>
+</div>
+<script>
+    function imagechange() { 
+        console.log("click")
+        document.getElementById('mainimage').
+    }
+</script>
