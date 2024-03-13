@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'notosanstc-extrabold';
+    src: url('../fonts/notosanstc-extrabold.ttf') format('truetype');
+}
+
 html {
   font-size: 14px;
+  font-family:notosanstc-extrabold;
 }
 
 @media (min-width: 768px) {
@@ -19,4 +25,22 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.smallimage {
+    position:relative;
+    display:flex;
+}
+
+.ImgTextbox {
+    border:3px dotted gray;
+    background-color: rgb(255, 255, 255,0.5);
+    position: relative;
+    top: -200px;
+    width: 300px;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: notosanstc-extrabold;
+    text-align: center;
 }

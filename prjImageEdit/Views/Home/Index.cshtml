@@ -2,20 +2,17 @@
     ViewData["Title"] = "ImageEdit";
 }
 
-<div>
-    <img id="mainimage" src="~/images/001.jpg" style="width:500px;position:absolute"/>
-</div>
-<div>
-    <div class="smallimage">
-        <img src="~/images/001.jpg" id="1" onclick="imagechange()" class="d-block w-100" alt="..." style="top:300px">
-    </div>
-    <div class="smallimage">
-        <img src="~/images/002.jpg" id="2" onclick="imagechange()" class="d-block w-100" alt="..." style="top:500px">
+<div id="capture" style="position: relative;">
+    <img id="mainimage" src="" style="width:500px;position: relative;margin-left: auto;margin-right: auto;display: flex;" />
+    <div id="textmove" class="mydiv">
+        <textarea id="textadd" class="form-control ImgTextbox" cols="10" wrap="hard">可以在這打字</textarea>
     </div>
 </div>
-<script>
-    function imagechange() { 
-        console.log("click")
-        document.getElementById('mainimage').
-    }
-</script>
+<div>
+    <div class="smallimage col-md">
+        <img src="~/images/001.jpg" id="1" onclick="imagechange(1)" class="img-thumbnail d-block" alt="..." style="top: 5px;position: relative;width: 10%;">
+        <img src="~/images/002.jpg" id="2" onclick="imagechange(2)" class="img-thumbnail d-block " alt="..." style="top: 5px;position: relative;width: 10%;">
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+

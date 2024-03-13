@@ -1,0 +1,644 @@
+﻿.responsive-layout,
+.responsive-layout * {
+  box-sizing: border-box;
+}
+.responsive-layout {
+  height: 1080px;
+  position: relative;
+}
+.resize {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.vertical {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.horizontal {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.product-page {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.product-page2 {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.page-heading {
+  background: #ffffff;
+  height: 149px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 112px;
+  overflow: hidden;
+}
+.fresh-august-21-2023 {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 96px;
+  bottom: 27px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.fresh-august-21-2023-span {
+  color: #000000;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}
+.fresh-august-21-2023-span2 {
+  color: #000000;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 300;
+}
+.divider {
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px 0 0 0;
+  height: 0px;
+  position: absolute;
+  right: 96px;
+  left: 96px;
+  bottom: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.navigation {
+  height: 112px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.world-peas {
+  color: #426b1f;
+  text-align: left;
+  font-family: "Newsreader-Medium", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 500;
+  position: absolute;
+  left: 45px;
+  top: 38px;
+}
+.cart-button {
+  background: #426b1f;
+  border-radius: 8px;
+  padding: 14px 23px 14px 23px;
+  width: 126px;
+  height: 48px;
+  position: absolute;
+  right: 42px;
+  top: 32px;
+  overflow: hidden;
+}
+.basket-3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(50% - 10.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tomato {
+  background: #fafaf5;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px;
+  height: 302px;
+  position: absolute;
+  right: 65px;
+  left: 76px;
+  top: 271px;
+  overflow: hidden;
+}
+.heirloom-tomato {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: 24px;
+  bottom: 98px;
+}
+._5-99-lb {
+  color: #426b1f;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: 24px;
+  bottom: 68px;
+}
+.grown-in-san-juan-capistrano-ca {
+  color: #6d6d6d;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  bottom: 28px;
+}
+.ed-o-neil-avvd-zlh-dow-a-unsplash-1 {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 148px;
+  top: 0px;
+  object-fit: cover;
+}
+.ginger {
+  background: #fafaf5;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px;
+  height: 347px;
+  position: absolute;
+  right: 65px;
+  left: 76px;
+  top: 621px;
+  overflow: hidden;
+}
+.organic-ginger {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: 24px;
+  bottom: 98px;
+}
+._12-99-lb {
+  color: #426b1f;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: 24px;
+  bottom: 68px;
+}
+.grown-in-huntington-beach-ca {
+  color: #6d6d6d;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  bottom: 28px;
+}
+.noonbrew-zi-cb-4-e-kmak-unsplash {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 148px;
+  top: 0px;
+  object-fit: cover;
+}
+.horizontal2 {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 434px;
+  bottom: 0px;
+  top: 0px;
+}
+.product-page3 {
+  position: absolute;
+  right: 0px;
+  left: -434px;
+  bottom: 0px;
+  top: 0px;
+}
+.default-chip {
+  background: #426b1f;
+  border-radius: 20px;
+  padding: 10px 16px 10px 16px;
+  width: 88px;
+  height: 40px;
+  position: absolute;
+  right: 275px;
+  bottom: 33px;
+  overflow: hidden;
+}
+.default {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 28px);
+  top: calc(50% - 10.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-z-chip {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  padding: 10px 16px 10px 16px;
+  width: 62px;
+  height: 40px;
+  position: absolute;
+  right: 205px;
+  bottom: 33px;
+  overflow: hidden;
+}
+.a-z {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: calc(50% - 10.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-chip {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  padding: 10px 16px 10px 16px;
+  width: 101px;
+  height: 40px;
+  position: absolute;
+  right: 96px;
+  bottom: 33px;
+  overflow: hidden;
+}
+.list-view {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 34.5px);
+  top: calc(50% - 10.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fresh-august-21-20232 {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 347px;
+  bottom: 33px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.fresh-august-21-20232-span {
+  color: #000000;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}
+.fresh-august-21-20232-span2 {
+  color: #000000;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 300;
+}
+.produce {
+  color: #000000;
+  text-align: left;
+  font-family: "Newsreader-Regular", sans-serif;
+  font-size: 64px;
+  line-height: 120%;
+  font-weight: 400;
+  position: absolute;
+  left: 96px;
+  bottom: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.world-peas2 {
+  color: #426b1f;
+  text-align: left;
+  font-family: "Newsreader-Medium", sans-serif;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 500;
+  position: absolute;
+  left: 96px;
+  top: 41px;
+}
+.shop {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  right: 657px;
+  top: 45.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newstand {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  right: 532px;
+  top: 45.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.who-we-are {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  right: 394px;
+  top: 45.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-profile {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  right: 270px;
+  top: 45.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-button2 {
+  background: #426b1f;
+  border-radius: 8px;
+  padding: 14px 23px 14px 23px;
+  width: 126px;
+  height: 48px;
+  position: absolute;
+  right: 96px;
+  top: 32px;
+  overflow: hidden;
+}
+.tomato2 {
+  background: #fafaf5;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px;
+  height: 444px;
+  position: absolute;
+  right: 754px;
+  left: 96px;
+  top: 301px;
+  overflow: hidden;
+}
+.ginger2 {
+  background: #fafaf5;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px;
+  height: 444px;
+  position: absolute;
+  right: 91px;
+  left: 744px;
+  top: 301px;
+  overflow: hidden;
+}
+.horizontal3 {
+  background: #ffffff;
+  position: absolute;
+  right: 0px;
+  left: 965px;
+  bottom: 0px;
+  top: 0px;
+}
+.product-page4 {
+  position: absolute;
+  right: 0px;
+  left: -965px;
+  bottom: 0px;
+  top: 0px;
+}
+.fresh-august-21-20232-span3 {
+  color: #000000;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}
+.fresh-august-21-20232-span4 {
+  color: #000000;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 300;
+}
+.tomato3 {
+  background: #fafaf5;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px;
+  height: 444px;
+  position: absolute;
+  right: 949px;
+  left: 96px;
+  top: 301px;
+  overflow: hidden;
+}
+.ginger3 {
+  background: #fafaf5;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 2px;
+  height: 444px;
+  position: absolute;
+  right: 522px;
+  left: 523px;
+  top: 301px;
+  overflow: hidden;
+}
+.ruler {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle {
+  background: #b3b3b3;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  top: -60px;
+}
+.ellipse {
+  background: #b3b3b3;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  left: -2px;
+  top: -62px;
+}
+.frame {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 312px;
+  top: -68px;
+  overflow: visible;
+}
+.frame2 {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 427px;
+  top: -68px;
+  overflow: visible;
+}
+.frame3 {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 958px;
+  top: -68px;
+  overflow: visible;
+}
+.frame4 {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 1432px;
+  top: -68px;
+  overflow: visible;
+}
+._320 {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 306.5px;
+  top: -89px;
+}
+._435 {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 421px;
+  top: -89px;
+}
+._966 {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 952px;
+  top: -89px;
+}
+._1440 {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 1423px;
+  top: -89px;
+}
